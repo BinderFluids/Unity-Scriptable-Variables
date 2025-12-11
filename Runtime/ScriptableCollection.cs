@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Core.ScriptableVariables
+namespace ScriptableVariables
 {
     public class ScriptableCollection<T> : RuntimeScriptableObject
     {

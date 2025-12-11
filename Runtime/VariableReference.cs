@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Core.ScriptableVariables
+namespace ScriptableVariables
 {
     [Serializable]
     public class VariableReference<T>

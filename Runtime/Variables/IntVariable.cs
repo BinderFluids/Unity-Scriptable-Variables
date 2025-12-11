@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Core.ScriptableVariables
+namespace ScriptableVariables
 {
     [CreateAssetMenu(fileName = "IntVariable", menuName = "Scriptable Variables/Int")]
     [Serializable]

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Core.ScriptableVariables
+namespace ScriptableVariables
 {
     [Serializable]
     public class ScriptableVariable<T> : RuntimeScriptableObject
