@@ -1,7 +1,10 @@
 {
   "name": "com.binderfluids.scriptablevariables",
-  "version": "1.0.0",
-  "displayName": "Scriptable Variables"
+  "version": "1.0.1",
+  "displayName": "Scriptable Variables",
+  "author": {
+    "name": "Tanner Martin"
+  }
 }
 
 
