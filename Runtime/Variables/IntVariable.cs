@@ -7,5 +7,9 @@ namespace ScriptableVariables
     [Serializable]
     public class IntVariable : ScriptableVariable<int>
     {
+        public void ChangeValue(int amt)
+        {
+            Value += amt; 
+        }
     }
 }
