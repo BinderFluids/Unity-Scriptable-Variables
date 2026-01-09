@@ -9,3 +9,7 @@
 ## [1.0.2] - 1/7/2026
 ### Int/Float Update
 - Added ChangeValue method to Int and Float Variables
+
+## [1.0.3] - 1/9/2026
+### New Type
+- Added Color Variable
