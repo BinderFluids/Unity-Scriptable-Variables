@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ScriptableVariables
 {
-    [CreateAssetMenu(fileName = "Vector3Variable", menuName = "Scriptable Variables/Vector3")]
+    [CreateAssetMenu(fileName = "Vector2Variable", menuName = "Scriptable Variables/Vector2")]
     public class Vector2Variable : ScriptableVariable<Vector2>
     {
     }
