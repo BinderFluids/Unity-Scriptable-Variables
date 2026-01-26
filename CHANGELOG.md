@@ -13,3 +13,8 @@
 ## [1.0.3] - 1/9/2026
 ### New Type
 - Added Color Variable
+
+## [1.0.4] 1/26/2026
+### New Type + Variable Reference
++ Vector3 Variable
+* Variable Reference updated
