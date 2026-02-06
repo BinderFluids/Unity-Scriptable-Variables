@@ -14,6 +14,9 @@ namespace ScriptableVariables
             get => value;
             set
             {
+                T previousValue = this.value;
+                if (Equals(previousValue, value)) return;
+                
                 this.value = value;
                 OnValueChanged?.Invoke(value);
             }
@@ -28,7 +31,8 @@ namespace ScriptableVariables
 
         protected override void OnReset()
         {
-            OnValueChanged?.Invoke(value = initialValue);
+            value = initialValue; 
+            OnValueChanged?.Invoke(value);
         }
     }
 }
