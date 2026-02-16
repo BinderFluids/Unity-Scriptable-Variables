@@ -13,7 +13,7 @@ namespace ScriptableVariables
         [Tooltip("Constant value to use. Only in use if scriptable variable is empty.")]
         [SerializeField] private T value; 
         [SerializeField] private UnityEvent<T> onChangeUnityEvent;
-        [SerializeField] private event Action<T> onChangeEvent = delegate { }; 
+        private event Action<T> onChangeEvent = delegate { }; 
 
         public T Value
         {
